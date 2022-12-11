@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='milligram.css') }}">
+    <meta charset="UTF-8">
+    <title>Error</title>
+</head>
+<body>
+<div class="container">
+  <h1>Invalid login</h1>
+  <h2>You are not authenticated.</h2>
+  <a class="button" href="{{ url_for('index') }}">Go back</a>
+</div>
+</body>
+</html>

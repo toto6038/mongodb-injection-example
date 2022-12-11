@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='milligram.css') }}">
+    <title>Login</title>
+</head>
+<body>
+<div class="container">
+    <h1>Login</h1>
+    <form action="{{ url_for('do_login') }}" method="post" name="login">
+        <label for="">Username</label>
+        <input type="text" name="username" id="username">
+        <label for="">Password</label>
+        <input type="password" name="password" id="password">
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+</body>
+</html>

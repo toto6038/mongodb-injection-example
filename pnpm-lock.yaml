@@ -1,0 +1,19 @@
+lockfileVersion: 5.4
+
+specifiers:
+  milligram: ^1.4.1
+
+dependencies:
+  milligram: 1.4.1
+
+packages:
+
+  /milligram/1.4.1:
+    resolution: {integrity: sha512-RCgh/boHhcXWOUfKJWm3RJRoUeaEguoipDg0mJ31G0tFfvcpWMUlO1Zlqqr12K4kAXfDlllaidu0x7PaL2PTFg==}
+    dependencies:
+      normalize.css: 8.0.1
+    dev: false
+
+  /normalize.css/8.0.1:
+    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==}
+    dev: false
